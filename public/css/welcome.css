@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  
+  body {
+    background-color: #04152d;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:3rem 6%;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        background: transparent;
+  }
+
+  .header .adminlogin a{
+    font-size:2rem;
+    background-color: white;
+    color:black;
+    border-radius:3rem;
+    padding:1rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+
+  }
+  .header .adminlogin a:hover{
+    padding:1rem 2rem;
+    background-color: black;
+    color: white;
+  }
+  .header .userlogin a{
+    font-size:2rem;
+    background-color: white;
+    color:black;
+    border-radius:3rem;
+    padding:1rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+  .header .userlogin a:hover{
+    padding:1rem 2rem;
+    background-color: black;
+    color: white;
+  }
+
+  .container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+
+  }
+
+  .imgcontainer{
+    position: relative;
+    height: 40rem;
+    width: 40rem;
+  }
+  .imgcontainer img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+  }
+  
+
+  @media(max-width:991px){
+
+    html{
+      font-size: 56%;
+    }
+    .imgcontainer{
+        height: 30rem;
+        width: 30rem;
+      }
+  
+  }
+
+  @media(max-width:768px) {
+    html{
+    font-size: 54%;
+  }
+  .imgcontainer{
+    height: 25rem;
+    width: 25rem;
+  }
+  
+  }
+  
+  @media(max-width:450px){
+
+    html{
+      font-size: 50%;
+    }
+
+    .imgcontainer{
+        height: 20rem;
+        width: 20rem;
+      }
+  
+  }
