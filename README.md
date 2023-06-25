@@ -6,5 +6,7 @@
     <li><b>run</b> : composer install</li>
     <li><b>run</b> : php artisan key:generate</li>
     <li><b>run</b> : php artisan migrate:fresh --seed</li>
+    <li><b>run</b> : npm install </li>
+    <li><b>run</b> : npm run build </li>
     <li><b>run</b> : php artisan serve</li>
 </ul>
