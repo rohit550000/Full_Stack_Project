@@ -7,7 +7,7 @@
     <li><b>run</b> : php artisan key:generate</li>
     <li><b>run</b> : php artisan migrate:fresh --seed</li>
     <li><b>run</b> : npm install </li>
-    <li><b>run</b> : npm run build </li>
+    <li><b>run</b> : npm run build      OR  you can run: npm run dev  but give more preference to npm run build </li>
     <li><b>run</b> : php artisan serve</li>
 </ul>
 
