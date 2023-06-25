@@ -10,3 +10,11 @@
     <li><b>run</b> : npm run build </li>
     <li><b>run</b> : php artisan serve</li>
 </ul>
+
+<h1>Admin Login Credentials</h1>
+<ul>
+    <li><b>Email</b>    : admin@admin.com</li>
+    <li><b>Password</b> : admin@admin.com</li>
+</ul>
+
+
